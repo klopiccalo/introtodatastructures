@@ -2,8 +2,8 @@ package hw1
 
 func Sum(a []int) int {
   sum := 0
-  for _ = range a {
-    sum++
+  for _, v := range a {
+    sum += v
   }
   return sum
 }
